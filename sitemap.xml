@@ -5,34 +5,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/</loc>
-<lastmod>2019-05-17T15:21:25-00:00</lastmod>
+<lastmod>2019-05-17T20:37:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/archives.html</loc>
-<lastmod>2019-05-17T15:21:25-00:00</lastmod>
+<lastmod>2019-05-17T20:37:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/tags.html</loc>
-<lastmod>2019-05-17T15:21:25-00:00</lastmod>
+<lastmod>2019-05-17T20:37:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/categories.html</loc>
-<lastmod>2019-05-17T15:21:25-00:00</lastmod>
+<lastmod>2019-05-17T20:37:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/cold-vs-flu.html</loc>
+<lastmod>2019-05-17T00:00:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/empathy-vs-sympathy.html</loc>
 <lastmod>2019-05-17T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -166,6 +173,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/tag/flu.html</loc>
+<lastmod>2019-05-17T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/tag/empathy.html</loc>
+<lastmod>2019-05-17T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/tag/sympathy.html</loc>
 <lastmod>2019-05-17T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
