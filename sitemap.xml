@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/</loc>
-<lastmod>2019-05-17T20:37:35-00:00</lastmod>
+<lastmod>2019-05-18T08:57:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/archives.html</loc>
-<lastmod>2019-05-17T20:37:35-00:00</lastmod>
+<lastmod>2019-05-18T08:57:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/tags.html</loc>
-<lastmod>2019-05-17T20:37:35-00:00</lastmod>
+<lastmod>2019-05-18T08:57:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/categories.html</loc>
-<lastmod>2019-05-17T20:37:35-00:00</lastmod>
+<lastmod>2019-05-18T08:57:13-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/bourbon-vs-whiskey.html</loc>
+<lastmod>2019-06-18T00:00:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -152,7 +159,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/category/difference-between.html</loc>
-<lastmod>2019-05-17T00:00:00+00:09</lastmod>
+<lastmod>2019-06-18T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -160,6 +167,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://differentiatebetween.com/category/difference-between-three.html</loc>
 <lastmod>2019-05-11T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/tag/bourbon.html</loc>
+<lastmod>2019-06-18T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/tag/whiskey.html</loc>
+<lastmod>2019-06-18T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -425,7 +446,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/author/nischal-lal-shrestha.html</loc>
-<lastmod>2019-05-17T00:00:00+00:09</lastmod>
+<lastmod>2019-06-18T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
