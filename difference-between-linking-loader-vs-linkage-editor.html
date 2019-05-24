@@ -229,6 +229,39 @@ linkage editor commands used:</p>
 <img alt="Linkage Editor" id="id3" src="theme/img/DifferenceBetween/linkage-editor.png" style="width: 100%;" />
 <p>Linkage editors can also be used to build packages of subroutines or other control sections that are generally used together. This can be useful when dealing with subroutine libraries that support high-level programming languages. Linkage editors often include a variety of other options and commands like those discussed for linking loaders. Compared to linking loaders, linkage
 editors in general tend to offer more flexibility and control.</p>
+<p>The execution of any program needs four basic functionalities and those are
+allocation, relocation, linking and loading. As we have also seen in direct
+linking loader for execution of any program each time these four
+functionalities need to be performed.</p>
+<p>But performing all these functionalities each time is time and space consuming task. Moreover if
+the program contains many subroutines or functions and the program
+needs to be executed repeatedly then this activity becomes annoyingly
+complex .Each time for execution of a program, the allocation, relocation
+linking and -loading needs to be done. Now doing these activities each
+time increases the time and space complexity. Actually, there is no need
+to redo all these four activities each time. Instead, if the results of some of
+these activities are stored in a file then that file can be used by other
+activities. And performing allocation, relocation, linking and loading can
+be avoided each time.</p>
+<p>The idea is to separate out these activities in
+separate groups. Thus dividing the essential four functions in groups
+reduces the overall time complexity of loading process. The program
+which performs allocation, relocation and linking is called binder. The
+binder performs relocation, creates linked executable text and stores this
+text in a file in some systematic manner. Such kind of module prepared
+by the binder execution is called load module. This load module can then
+be actually loaded in the main memory by the loader. This loader is also
+called as module loader. If the binder can produce the exact replica of
+executable code in the load module then the module loader simply loads
+this file into the main memory which ultimately reduces the overall time
+complexity.</p>
+<p>But in this process the binder should knew the current
+positions of the main memory. Even though the binder knew the main
+memory locations this is not the only thing which is sufficient. In
+multiprogramming environment, the region of main memory available for
+loading the program is decided by the host operating system. The binder
+should also know which memory area is allocated to the loading program
+and it should modify the relocation information accordingly. The binder</p>
 </div>
 
         </span>
