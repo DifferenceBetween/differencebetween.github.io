@@ -64,6 +64,10 @@ h6 {
   color: #777;
   line-height: 31.4928px; }
 
+.blockquote{
+  border-left: 4px solid #113D8B;
+
+}
 hr {
   border: 2px solid #eeeeee; }
 
