@@ -5,35 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/</loc>
-<lastmod>2019-06-08T21:31:51-00:00</lastmod>
+<lastmod>2019-06-09T19:07:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/archives.html</loc>
-<lastmod>2019-06-08T21:31:51-00:00</lastmod>
+<lastmod>2019-06-09T19:07:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/tags.html</loc>
-<lastmod>2019-06-08T21:31:51-00:00</lastmod>
+<lastmod>2019-06-09T19:07:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/categories.html</loc>
-<lastmod>2019-06-08T21:31:51-00:00</lastmod>
+<lastmod>2019-06-09T19:07:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>https://differentiatebetween.com/difference-between-lager-vs-ale.html</loc>
+<lastmod>2019-06-09T00:00:00+02:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
 <loc>https://differentiatebetween.com/difference-between-turtle-and-tortoise.html</loc>
-<lastmod>2019-05-24T00:00:00+02:00</lastmod>
+<lastmod>2019-06-09T00:00:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -41,13 +48,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://differentiatebetween.com/difference-between-linking-loader-vs-linkage-editor.html</loc>
 <lastmod>2019-05-22T00:00:00+02:00</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://differentiatebetween.com/difference-between-lager-vs-ale.html</loc>
-<lastmod>2019-05-21T00:00:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -201,21 +201,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/category/difference-between.html</loc>
-<lastmod>2019-05-24T00:00:00+00:09</lastmod>
+<lastmod>2019-06-09T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/tag/lager.html</loc>
+<lastmod>2019-06-09T00:00:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://differentiatebetween.com/tag/ale.html</loc>
+<lastmod>2019-06-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/tag/turtle.html</loc>
-<lastmod>2019-05-24T00:00:00+00:09</lastmod>
+<lastmod>2019-06-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://differentiatebetween.com/tag/tortoise.html</loc>
-<lastmod>2019-05-24T00:00:00+00:09</lastmod>
+<lastmod>2019-06-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -230,20 +244,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://differentiatebetween.com/tag/linkage-editor.html</loc>
 <lastmod>2019-05-22T00:00:00+00:09</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://differentiatebetween.com/tag/lager.html</loc>
-<lastmod>2019-05-21T00:00:00+00:09</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://differentiatebetween.com/tag/ale.html</loc>
-<lastmod>2019-05-21T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -586,7 +586,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://differentiatebetween.com/author/nischal-lal-shrestha.html</loc>
-<lastmod>2019-05-24T00:00:00+00:09</lastmod>
+<lastmod>2019-06-09T00:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
