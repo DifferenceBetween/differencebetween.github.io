@@ -226,17 +226,19 @@
 <div class="section" id="forward-chaining">
 <h2>Forward Chaining</h2>
 <p>Forward chaining starts with the available data and uses inference rules to extract more data (from an end user for example) until a goal is reached. An inference engine using forward chaining searches the inference rules until it finds one where the antecedent 5 (If clause) is known to be true. When found it can conclude, or infer, the consequent (Then clause), resulting in the addition of new information to its data. Inference engines will iterate through this process until a goal is reached.</p>
+<img alt="Forward Chaining Cycle" id="forward-chaining-cycle" src="theme/img/DifferenceBetween/forward-chaining-cycle.PNG" style="width: 100%;" />
 </div>
 <div class="section" id="backward-chaining">
 <h2>Backward Chaining</h2>
 <p>Backward chaining (or backward reasoning) is an inference method that can be described as working backward from the goal(s). It is used in automated theorem provers, proof assistants and other artificial intelligence applications, but it has also been observed in primates. In game theory, its application to (simpler) sub-games in order to find a solution to the game is called backward induction. In chess, it is called retrograde analysis, and it is used to generate table bases for chess endgames for computer chess. Backward chaining is implemented in logic programming by SLD resolution. Both rules are based on the modus ponens inference rule. It is one of the two most commonly used methods of reasoning with inference rules and logical implications – the other is forward chaining. Backward chaining systems usually employ a depth-first search strategy, e.g. Prolog.</p>
+<img alt="Backward Chaining Cycle" id="backward-chaining-cycle" src="theme/img/DifferenceBetween/backward-chaining-cycle.PNG" style="width: 100%;" />
 </div>
 <div class="section" id="choosing-forward-or-backward-chaining">
 <h2>Choosing Forward or Backward Chaining</h2>
 <p><strong>When to choose Backward Chaining?</strong>
-If you already know what you are looking for.</p>
+Choose Backward Chaining If you already know what you are looking for.</p>
 <p><strong>When to choose Forward Chaining?</strong>
-If you don't necessarily know the final state of your solution.</p>
+Choose Forward Chaining, If you don't necessarily know the final state of your solution.</p>
 <img alt="Choosing Forward or Backward Chaining" id="id2" src="theme/img/DifferenceBetween/choosing-forward-chaining-or-backward-chaining.PNG" style="width: 100%;" />
 </div>
 <div class="section" id="forward-chaining-example">
