@@ -231,6 +231,53 @@
 <h2>Backward Chaining</h2>
 <p>Backward chaining (or backward reasoning) is an inference method that can be described as working backward from the goal(s). It is used in automated theorem provers, proof assistants and other artificial intelligence applications, but it has also been observed in primates. In game theory, its application to (simpler) sub-games in order to find a solution to the game is called backward induction. In chess, it is called retrograde analysis, and it is used to generate table bases for chess endgames for computer chess. Backward chaining is implemented in logic programming by SLD resolution. Both rules are based on the modus ponens inference rule. It is one of the two most commonly used methods of reasoning with inference rules and logical implications – the other is forward chaining. Backward chaining systems usually employ a depth-first search strategy, e.g. Prolog.</p>
 </div>
+<div class="section" id="choosing-forward-or-backward-chaining">
+<h2>Choosing Forward or Backward Chaining</h2>
+<p><strong>When to choose Backward Chaining?</strong>
+If you already know what you are looking for.</p>
+<p><strong>When to choose Forward Chaining?</strong>
+If you don't necessarily know the final state of your solution.</p>
+<img alt="Choosing Forward or Backward Chaining" id="id2" src="theme/img/DifferenceBetween/choosing-forward-chaining-or-backward-chaining.PNG" style="width: 100%;" />
+</div>
+<div class="section" id="forward-chaining-example">
+<h2>Forward Chaining example</h2>
+<p>Suppose that the goal is to conclude the color of a pet named Fritz, given that he
+croaks and eats flies, and that the rule base contains the following four rules:</p>
+<blockquote>
+<ol class="arabic simple">
+<li>If X croaks and eats flies - Then X is a frog</li>
+<li>If X chirps and sings - Then X is a canary</li>
+<li>If X is a frog - Then X is green</li>
+<li>If X is a canary - Then X is yellow</li>
+</ol>
+</blockquote>
+<p>This rule base would be searched and the first rule would be selected, because its antecedent (If
+Fritz croaks and eats flies) matches our data. Now the consequents (Then X is a frog) is added to
+the data. The rule base is again searched and this time the third rule is selected, because its
+antecedent (If Fritz is a frog) matches our data that was just confirmed. Now the new consequent
+(Then Fritz is green) is added to our data. Nothing more can be inferred from this information,
+but we have now accomplished our goal of determining the color of Fritz.</p>
+</div>
+<div class="section" id="backward-chaining-example">
+<h2>Backward Chaining example</h2>
+<p>An Example of Backward Chaining:</p>
+<blockquote>
+<ol class="arabic simple">
+<li>If X croaks and eats flies – Then X is a frog</li>
+<li>If X chirps and sings – Then X is a canary</li>
+<li>If X is a frog – Then X is green</li>
+<li>If X is a canary – Then X is yellow</li>
+</ol>
+</blockquote>
+<p>This rule base would be searched and the third and fourth rules would be selected, because their
+consequents (Then Fritz is green, Then Fritz is yellow) match the goal (to determine Fritz's
+color). It is not yet known that Fritz is a frog, so both the antecedents (If Fritz is a frog, If Fritz is a canary) are added to the goal list. The rule base is again searched and this time the first two
+rules are selected, because their consequents (Then X is a frog, Then X is a canary) match the
+new goals that were just added to the list. The antecedent (If Fritz croaks and eats flies) is known
+to be true and therefore it can be concluded that Fritz is a frog, and not a canary. The goal of
+determining Fritz's color is now achieved (Fritz is green if he is a frog, and yellow if he is a
+canary, but he is a frog since he croaks and eats flies; therefore, Fritz is green).</p>
+</div>
 <div class="section" id="reference">
 <h2>Reference</h2>
 <p><a class="reference external" href="https://en.wikipedia.org/wiki/Forward_chaining">Forward Chaining</a></p>
